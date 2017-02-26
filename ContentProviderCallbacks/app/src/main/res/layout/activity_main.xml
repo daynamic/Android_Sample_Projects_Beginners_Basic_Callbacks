@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/tvName"/>
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/tvName"/>
+    <TextView
+        android:id="@+id/tvgrade"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Grade"
+        android:layout_below="@+id/txtName"/>
+    <EditText
+        android:id="@+id/txtGrade"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/tvgrade"/>
+    <Button
+        android:text="Add Name"
+        android:id="@+id/btnAdd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAddName"
+        android:layout_below="@+id/txtGrade"/>
+    <Button
+        android:text="Retrieve Students"
+        android:id="@+id/btnRetrieve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAdd"
+        android:onClick="onClickRetrieveStudents" />
+
+</RelativeLayout>
