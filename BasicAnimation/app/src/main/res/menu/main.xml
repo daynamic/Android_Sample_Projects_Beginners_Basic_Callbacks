@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/rotate360"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Clockwise/AntiClockwise"
+        />
+
+    <item
+        android:id="@+id/zoomInOut"
+        android:orderInCategory="100"
+        android:title="Zoom In/Out">
+
+    </item>
+    <item
+        android:id="@+id/fadeInOut"
+        android:orderInCategory="100"
+        android:title="Fade In/Out"
+        >
+
+    </item>
+
+
+
+</menu>
