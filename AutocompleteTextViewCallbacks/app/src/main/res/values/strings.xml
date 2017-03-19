@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AutocompleteTextViewCallbacks</string>
+    <string-array name="countries">
+        <item> USA </item>
+        <item>INDIA</item>
+        <item> United Kingdom</item>
+        <item>Australia</item>
+        <item>Finland</item>
+        <item>Greenland</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Sri Lanka</item>
+        <item>UAE</item>
+        <item>Holand</item>
+        <item>Russia</item>
+        <item>Netherlands</item>
+        <item>Japan</item>
+        <item>Bali</item>
+        <item>Sweden</item>
+        <item>Amsterdam</item>
+        <item>Europe</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Belgium</item>
+    </string-array>
+</resources>
