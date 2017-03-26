@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CameraAppUsingDefaultSystemApp</string>
+    <string name="runtime_permissions_txt">Please enable ALL permission from app settings.</string>
+</resources>
